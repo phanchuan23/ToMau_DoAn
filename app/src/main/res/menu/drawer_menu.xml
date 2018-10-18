@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    tools:showIn="navigation_view">
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_message"
+            android:icon="@drawable/ic_library"
+            android:title="Message" />
+        <item
+            android:id="@+id/nav_chat"
+            android:icon="@drawable/ic_library"
+            android:title="Chat" />
+        <item
+            android:id="@+id/itemtest3"
+            android:icon="@drawable/ic_library"
+            android:title="library 2" />
+        <item
+            android:id="@+id/itemtest4"
+            android:icon="@drawable/ic_library"
+            android:title="library 3" />
+    </group>
+    <item android:title="Communicate">
+        <menu>
+            <item android:id="@+id/test"
+                app:actionLayout="@layout/test"
+                android:icon="@mipmap/ic_launcher_round"
+                android:title=""
+                >
+            </item>
+            <item
+                android:id="@+id/ic_share"
+                android:icon="@drawable/ic_share_black_24dp"
+                android:title="share"></item>
+            <item
+                android:id="@+id/ic_share1"
+                android:icon="@drawable/ic_share_black_24dp"
+                android:title="share 1"></item>
+            <item
+                android:id="@+id/ic_share2"
+                android:icon="@drawable/ic_share_black_24dp"
+                android:title="share 2"></item>
+        </menu>
+    </item>
+</menu>
