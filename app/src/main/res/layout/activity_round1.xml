@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:tools="http://schemas.android.com/tools"
+    android:layout_height="match_parent"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:orientation="vertical">
+    <LinearLayout android:layout_height="match_parent"
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="match_parent"
+        android:layout_weight="10"
+        android:orientation="horizontal">
+        <ImageView
+            android:id="@+id/imgRound1Main1"
+            android:layout_margin="50px"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="#ff0000"/>
+
+
+    </LinearLayout>
+
+    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="0"
+        android:orientation="vertical">
+
+        <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginBottom="10dp"
+            android:layout_marginTop="0dp"
+            android:layout_weight="1"
+            android:orientation="horizontal">
+
+            <Button
+                android:id="@+id/video_round1_main1"
+                android:background="@drawable/cus_button_video"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="20dp"
+                android:layout_marginRight="20dp"
+                android:layout_weight="1"
+                android:text="video" />
+
+            <Button
+                android:id="@+id/audio_round1_main1"
+                android:background="@drawable/cus_button_video"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="20dp"
+                android:layout_marginRight="20dp"
+                android:layout_weight="1"
+                android:text="Audio" />
+
+        </LinearLayout>
+        <LinearLayout android:layout_height="30dp"
+            xmlns:android="http://schemas.android.com/apk/res/android"
+            android:layout_width="match_parent"
+            android:orientation="horizontal">
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:gravity="center"
+                android:text="Chọn đúng màu nhé!"/>
+
+        </LinearLayout>
+        <LinearLayout android:layout_height="60dp"
+            xmlns:android="http://schemas.android.com/apk/res/android"
+            android:layout_width="match_parent"
+            android:layout_weight="1"
+            android:orientation="horizontal">
+            <Button
+                android:id="@+id/answer1_round1_main1"
+                android:layout_weight="1"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:text="Xanh"/>
+            <Button
+                android:onClick="chuyen"
+                android:id="@+id/answer2_round1_main1"
+                android:layout_weight="1"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:text="Do"/>
+
+        </LinearLayout>
+        <LinearLayout android:layout_height="60dp"
+            xmlns:android="http://schemas.android.com/apk/res/android"
+            android:layout_width="match_parent"
+            android:layout_weight="1"
+            android:orientation="horizontal">
+            <Button
+                android:id="@+id/answer3_round1_main1"
+                android:layout_weight="1"
+                android:layout_margin="0px"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:text="Tim"/>
+            <Button
+                android:id="@+id/answer4_round1_main1"
+                android:layout_weight="1"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:text="Vang"/>
+
+        </LinearLayout>
+
+    </LinearLayout>
+</LinearLayout>

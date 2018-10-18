@@ -1,3 +1,8 @@
 <resources>
     <string name="app_name">ToMau_DoAn</string>
+
+    <string name="main1_title">Level 1</string>
+    <string name="main1_discription">Học Nhận Biết Màu Cơ Bản</string>
+    <string name="main1_namebutton1">Chọn màu</string>
+
 </resources>
